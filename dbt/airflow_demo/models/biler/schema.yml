@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: biler_view
+    description: "Et view for å se alle biler"
+    columns:
+      - name: radar_id
+        description: "The primary key for this table"
+        data_tests:
+          - unique
+          - not_null
+
+  - name: biler_sum
+    description: "Et view for å se summen av biler per modell"
+    columns:
+      - name: vehicle_model
+        description: "Bilmodellnavn"
+        data_tests:
+          - not_null
