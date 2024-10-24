@@ -20,3 +20,5 @@ Server name: **localhost**\
 User name: **airflow**\
 Password: **airflow**\
 Database name: **airflow**
+
+4. To stop all services and remove all containers run the following command inside the root of apache-airflow-demo folder via your terminal: `docker compose down --volumes --remove-orphans`
