@@ -14,8 +14,8 @@ Make sure you have cloned the repo and installed `docker` on your machine.
 - [Adminer](http://localhost:33380)
 - postgres://airflow:airflow@postgres/airflow?sslmode=disable
 
-If you want to connect via **Azure Data Studio** use the following and make sure you have the **PostgreSQL** extension for **Azure Data Studio**:
-Server name: **localhost**
-User name: **airflow**
-Password: **airflow**
-Database name: **airflow**
+If you want to connect via **Azure Data Studio** use the following and make sure you have the **PostgreSQL** extension for **Azure Data Studio**:\
+Server name: **localhost**\
+User name: **airflow**\
+Password: **airflow**\
+Database name: **airflow**\
