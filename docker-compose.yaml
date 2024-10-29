@@ -134,7 +134,17 @@ services:
     restart: always
     ports:
       - 33380:8080
-
+  superset:
+    build:
+      context: /Users/Shared/repos/Personlig/apache-airflow-demo/superset
+      dockerfile: dockerfile
+    container_name: superset
+    environment:
+      - ADMIN_USERNAME=admin
+      - ADMIN_EMAIL=admin@superset.com
+      - ADMIN_PASSWORD=admin
+    ports:
+      - "8088:8088"
   redis:
     # Redis is limited to 7.2-bookworm due to licencing change
     # https://redis.io/blog/redis-adopts-dual-source-available-licensing/
