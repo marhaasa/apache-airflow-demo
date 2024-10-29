@@ -48,6 +48,7 @@ graph TD
 	    fake_data_generator[Fake Data Generator] --> DataSource1[postgres]
 	    adminer[Adminer]
 	    DataSource1[postgres] <--> Worker1[Worker]
+      Supserset[Superset] --> DataSource1[postgres]
 	end
 
 ```
