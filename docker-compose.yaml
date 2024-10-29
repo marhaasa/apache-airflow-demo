@@ -136,7 +136,7 @@ services:
       - 33380:8080
   superset:
     build:
-      context: /Users/Shared/repos/Personlig/apache-airflow-demo/superset
+      context: ./superset
       dockerfile: dockerfile
     container_name: superset
     environment:

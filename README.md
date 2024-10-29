@@ -7,7 +7,7 @@ Make sure you have cloned the repo and installed `docker` on your machine.
 ## Start the demo
 
 1. Navigate to the root of apache-airflow-demo folder via your terminal.
-2. Run the following command: `docker compose up airflow-init && docker compose up`
+2. Run the following command: `docker compose build && docker compose up airflow-init && docker compose up`
 3. To access the most relevant services follow the following links or use the following connection string to access the postgres database:
 
 - [Airflow UI](http://localhost:8080)
